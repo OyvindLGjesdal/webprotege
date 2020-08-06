@@ -5,3 +5,5 @@ build:
   stage: build
   script: 
   - mvn clean package -DskipTests -Dgwt.localWorkers=1
+tags:
+- saxonee
